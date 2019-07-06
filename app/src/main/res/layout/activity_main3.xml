@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginRight="20sp"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/by2String"
+        android:textColor="@android:color/background_light"
+        android:textSize="28sp" />
+    <EditText
+        android:id="@+id/etInput"
+        android:inputType="number"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="75sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/enter_value_to_test_divisibility"
+        android:textSize="23sp"
+        android:textColor="@android:color/background_light"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnCheck"
+        android:text="@string/check_divisibility"
+        android:layout_marginTop="60sp"
+        android:layout_gravity="center"
+        android:background="@drawable/btngs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/allan"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btnTell"
+            android:text="@string/tell_a_friend"
+            android:background="@drawable/btngs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:fontFamily="@font/allan"
+            android:textStyle="bold"
+            android:layout_marginRight="20sp"/>
+        <Button
+            android:background="@drawable/btngs"
+            android:id="@+id/btnSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEND MAIL"
+            android:textSize="24sp"
+            android:fontFamily="@font/allan"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:textSize="24sp"
+        android:fontFamily="@font/allerta"
+        android:textColor="@android:color/background_light"
+        android:gravity="center"/>
+
+</LinearLayout>

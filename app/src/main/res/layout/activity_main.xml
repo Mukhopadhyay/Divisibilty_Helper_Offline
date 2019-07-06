@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35sp"
+        android:fontFamily="@font/allan"
+        android:text="@string/appNameString"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp" />
+    <ImageView
+        android:layout_marginTop="10sp"
+        android:src="@drawable/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="@string/introString"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"
+        android:background="@drawable/btngs"
+        android:fontFamily="@font/allan"
+        android:text="@string/getStartedString"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/footerString"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+</LinearLayout>

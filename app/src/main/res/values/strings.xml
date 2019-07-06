@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Divisibility Helper</string>
+    <string name="appNameString">Divisibility Helper</string>
+    <string name="introString">Learn rules of\nDivisibility Test\nWith a few touch</string>
+    <string name="getStartedString">GET STARTED</string>
+    <string name="footerString">Get started with divisibility techniques</string>
+    <string name="divisibility_of_2">Divisibility of 2</string>
+    <string name="divisibility_of_3">Divisibility of 3</string>
+    <string name="divisibility_of_8">Divisibility of 8</string>
+    <string name="divisibility_of_9">Divisibility of 9</string>
+    <string name="divisibility_of_10">Divisibility of 10</string>
+    <string name="divisibility_of_11">Divisibility of 11</string>
+    <string name="by2String">A number is divisible by 2 if its unit digit is any of 0, 2, 4, 6, 8.</string>
+    <string name="by3String">A number is divisible by 3 only when the sum of its digits is divisible by 3.</string>
+    <string name="by8String">A number is divisible by 8 if the number formed by hundred\'s, ten\'s and unit\'s digit of the given number id divisible by 8. </string>
+    <string name="by9String">A number is divisible by 9 only, when the sum of its digits is divisible by 9.</string>
+    <string name="by10String">A number is divisible by 10 only when its unit digit is 0</string>
+    <string name="by11String">A number is divisible by 11, if the difference between te sum of its digits at odd places and the sum of its digits at even places is either 0 or a number divisible by 11.</string>
+    <string name="check_divisibility">Check divisibility</string>
+    <string name="enter_value_to_test_divisibility">Enter value to test divisibility</string>
+    <string name="enterNumberWarningString">Please enter a number!</string>
+    <string name="numberEnteredString">Number entered!</string>
+    <string name="as_last_digit_is">As last digit is</string>
+    <string name="tell_a_friend">tell a friend</string>
+    <string name="result">Result....</string>
+</resources>

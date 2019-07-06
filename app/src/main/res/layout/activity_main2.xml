@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/divBy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/option_button"
+        android:fontFamily="@font/allan"
+        android:text="@string/divisibility_of_2"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/divBy3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/option_button"
+        android:fontFamily="@font/allan"
+        android:text="@string/divisibility_of_3"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:text="@string/divisibility_of_8"
+        android:id="@+id/divBy8"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/option_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:text="@string/divisibility_of_9"
+        android:id="@+id/divBy9"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/option_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:text="@string/divisibility_of_10"
+        android:id="@+id/divBy10"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/option_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:text="@string/divisibility_of_11"
+        android:id="@+id/divBy11"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/option_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allan"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
